@@ -9,7 +9,23 @@ module.exports = {
     'stylelint-scss'
   ],
   rules: {
+    "at-rule-empty-line-before": [
+      "always", {
+        except: [
+          "blockless-after-same-name-blockless",
+          "first-nested",
+        ],
+        ignore: ["after-comment"],
+        ignoreAtRules: ["else"]
+      }
+    ],
     'at-rule-no-unknown': null,
+    "block-closing-brace-newline-after": [
+      "always",
+      {
+        ignoreAtRules: ["if", "else"]
+      }
+    ],
     'number-leading-zero': 'never',
     'scss/at-else-closing-brace-newline-after': 'always-last-in-chain',
     'scss/at-else-closing-brace-space-after': 'always-intermediate',
@@ -41,7 +57,6 @@ module.exports = {
     ],
     'scss/dollar-variable-no-missing-interpolation': true,
     'scss/double-slash-comment-whitespace-inside': 'always',
-    'scss/no-duplicate-dollar-variables': true,
     'scss/operator-no-newline-after': true,
     'scss/operator-no-newline-before': true,
     'scss/operator-no-unspaced': true,
