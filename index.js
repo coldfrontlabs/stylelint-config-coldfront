@@ -41,7 +41,6 @@ module.exports = {
     ],
     'scss/dollar-variable-no-missing-interpolation': true,
     'scss/double-slash-comment-whitespace-inside': 'always',
-    'scss/no-duplicate-dollar-variables': true,
     'scss/operator-no-newline-after': true,
     'scss/operator-no-newline-before': true,
     'scss/operator-no-unspaced': true,
