@@ -38,7 +38,7 @@
     "stylelint": "^11.0.0"
   },
   "peerDependencies": {
-    "stylelint": ">=10.1.0"
+    "stylelint": ">=11.0.0"
   },
   "config": {
     "commitizen": {
