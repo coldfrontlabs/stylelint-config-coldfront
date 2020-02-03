@@ -46,26 +46,5 @@
   "peerDependencies": {
     "stylelint": ">=13.0.0",
     "prettier": ">=1.19.1"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
-  "eslintConfig": {
-    "extends": [
-      "stylelint"
-    ]
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "echo committing as $(git config user.name) && npm run lint"
-    }
   }
 }
