@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v2.0.0...v2.0.1) (2020-09-09)
+
+
+### Build System
+
+* **deps-dev:** bump standard-version from 7.1.0 to 8.0.1 ([efe22d1](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/efe22d1b29ebe51a8c78fa59fd0718c4cf3aa256))
+* **npm:** apply security updates ([a00e4e2](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/a00e4e28c8dc69f6b3528306ea52a3f95687353c))
+
 ## [2.0.0](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v1.0.1...v2.0.0) (2020-02-03)
 
 
