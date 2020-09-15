@@ -9,6 +9,13 @@ module.exports = {
   ],
   plugins: ["stylelint-scss", "stylelint-prettier"],
   rules: {
-    "prettier/prettier": true
+    "prettier/prettier": true,
+    // Ignore @use and @forward since those are both valid sass @rules.
+    "scss/at-rule-no-unknown": [
+      true,
+      {
+        ignoreAtRules: ["use", "forward"]
+      }
+    ]
   }
 }
