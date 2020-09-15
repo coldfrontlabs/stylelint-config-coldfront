@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.2](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v2.0.1...v2.0.2) (2020-09-15)
+
+
+### Bug Fixes
+
+* **rules:** ignore use and forward at rules ([27921c9](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/27921c99bbccc123548d54ca6ba704bba82e7a7c))
+
 ### [2.0.1](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v2.0.0...v2.0.1) (2020-09-09)
 
 

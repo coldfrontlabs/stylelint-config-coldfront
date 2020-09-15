@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-coldfront",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Custom stylelint config used for Coldfront projects.",
   "main": "index.js",
   "files": [
