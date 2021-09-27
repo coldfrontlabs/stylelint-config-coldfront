@@ -7,9 +7,13 @@
     "index.js"
   ],
   "scripts": {
-    "lint": "npx eslint --ext .js .",
-    "commit": "npx git cz",
-    "release": "npx standard-version"
+    "lint": "npm run eslint && npm run prettier",
+    "eslint": "eslint --ext .js --fix --ignore-path .gitignore .",
+    "prettier": "prettier '**/*.js' --write --ignore-path .gitignore",
+    "commit": "git cz",
+    "prelease": "npm run lint",
+    "release": "git add index.js && standard-version -a",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -34,18 +38,26 @@
     "stylelint-scss": "^3.18.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
+    "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^11.0.0",
     "commitizen": "^4.2.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.8.1",
-    "eslint-config-stylelint": "^12.0.0",
-    "husky": "^4.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-config-stylelint": "^14.0.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsdoc": "^36.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.1",
     "standard-version": "^9.0.0",
     "stylelint": "^13.7.0"
   },
   "peerDependencies": {
-    "stylelint": ">=13.0.0",
-    "prettier": ">=1.19.1"
+    "prettier": ">=2.0.0",
+    "stylelint": ">=13.0.0"
   }
 }
