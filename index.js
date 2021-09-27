@@ -1,11 +1,9 @@
-'use strict'
-
 module.exports = {
   extends: [
     "stylelint-config-recommended",
     "stylelint-config-recommended-scss",
     "stylelint-prettier/recommended",
-    "stylelint-config-property-sort-order-smacss"
+    "stylelint-config-property-sort-order-smacss",
   ],
   plugins: ["stylelint-scss", "stylelint-prettier"],
   rules: {
@@ -14,8 +12,8 @@ module.exports = {
     "scss/at-rule-no-unknown": [
       true,
       {
-        ignoreAtRules: ["use", "forward"]
-      }
-    ]
-  }
-}
+        ignoreAtRules: ["use", "forward"],
+      },
+    ],
+  },
+};
