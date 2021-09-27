@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.3](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v2.0.2...v2.0.3) (2021-09-27)
+
+
+### Build System
+
+* **npm:** update all dependencies and build config ([12ae014](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/12ae014b976b3e4d659778b769a6486d3ff2d031))
+* **npm:** update commit lint config ([ad002a0](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/ad002a02c60f31549be2b990632af14d3574b371))
+* **npm:** update stylelint-config packages to latest ([2b414dc](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/2b414dc4bf0d0deb1226aed6cd372e82ee31bada))
+
 ### [2.0.2](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v2.0.1...v2.0.2) (2020-09-15)
 
 
