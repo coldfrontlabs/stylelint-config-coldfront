@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v3.0.0...v3.0.1) (2022-02-16)
+
+
+### Bug Fixes
+
+* correct peer dependencies ([acda38c](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/acda38c92791c6fb62183d32ef9c428ed8a02276))
+
 ## [3.0.0](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v2.0.3...v3.0.0) (2022-02-16)
 
 
