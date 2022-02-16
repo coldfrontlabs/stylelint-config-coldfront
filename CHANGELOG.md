@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v2.0.3...v3.0.0) (2022-02-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **stylelint:** stylelint 14 changes how scss is handled and the config has been updated to reflect
+this
+
+### Features
+
+* **stylelint:** upgrade to stylelint 14 ([47ce818](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/47ce818c4c977b765ea1ace4867646bee8bf99b6))
+
 ### [2.0.3](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v2.0.2...v2.0.3) (2021-09-27)
 
 
