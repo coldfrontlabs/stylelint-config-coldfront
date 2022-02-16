@@ -1,19 +1,16 @@
 module.exports = {
   extends: [
-    "stylelint-config-recommended",
-    "stylelint-config-recommended-scss",
+    "stylelint-config-standard",
+    "stylelint-config-standard-scss",
     "stylelint-prettier/recommended",
     "stylelint-config-property-sort-order-smacss",
   ],
-  plugins: ["stylelint-scss", "stylelint-prettier"],
+  plugins: ["stylelint-prettier"],
   rules: {
     "prettier/prettier": true,
-    // Ignore @use and @forward since those are both valid sass @rules.
-    "scss/at-rule-no-unknown": [
-      true,
-      {
-        ignoreAtRules: ["use", "forward"],
-      },
-    ],
+    "alpha-value-notation": "number",
+    "function-no-unknown": null,
+    "selector-class-pattern": null,
+    "scss/at-mixin-argumentless-call-parentheses": "always",
   },
 };
