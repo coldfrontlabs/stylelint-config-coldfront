@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v3.0.1...v3.1.0) (2022-12-06)
+
+
+### Features
+
+* **rules:** ignore no-descending-specificity rules ([004cafd](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/004cafd184ef28bb59f10b9258085e64571ee18d))
+
+
+### Documentation
+
+* add security policy ([05dbd47](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/05dbd4763b305b6fd797d0ec1c8a0949e77a2f14))
+
+
+### Build System
+
+* bump @commitlint/cli from 16.3.0 to 17.0.0 ([9b7b067](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/9b7b0674104cedad80b85860f62ba15f9b693023))
+* bump @commitlint/config-conventional from 16.2.4 to 17.0.0 ([a47c72d](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/a47c72d41bdc33c18b14232dded15083916bb77a))
+* bump husky from 7.0.4 to 8.0.1 ([c125ecd](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/c125ecd32157d6154ee49937c784be9f1b6061e0))
+* bump lint-staged from 12.5.0 to 13.0.1 ([ce8b264](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/ce8b264455e9a20fec5219bcd894585a7d640317))
+* bump stylelint-config-property-sort-order-smacss ([9189751](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/9189751302d44804e6347e2211f9c8a2c536b702))
+* bump stylelint-config-standard from 25.0.0 to 26.0.0 ([805988f](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/805988f3b436f4adeacfc02096ccd5bdb9d15135))
+* bump stylelint-config-standard from 26.0.0 to 27.0.0 ([724c669](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/724c6695042fafcd1f6335bee4343d7c4acdc7db))
+* bump stylelint-config-standard from 27.0.0 to 28.0.0 ([c569fef](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/c569fef9ca9fb5405ecdea16618d295b1cf14cd0))
+* bump stylelint-config-standard from 28.0.0 to 29.0.0 ([ecfda7c](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/ecfda7c9e6e5c67740df630268f7897845e09a39))
+* bump stylelint-config-standard-scss from 3.0.0 to 4.0.0 ([1a03bcc](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/1a03bcc7f0720ea41eafd949ed8497dce7eb6686))
+* bump stylelint-config-standard-scss from 4.0.0 to 5.0.0 ([0c73a57](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/0c73a57b49d94013937b8247e7812f4d151afc5b))
+* bump stylelint-config-standard-scss from 5.0.0 to 6.0.0 ([97f131a](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/97f131a83f137f209a98178a5165ff0cc31d34f5))
+* **github:** add CodeQL workflow ([614b52a](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/614b52af705275b40ae51689068043c07bc44665))
+* **github:** add dependabot ([8669441](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/866944197c84961daa9259c36689633d77781107))
+
 ### [3.0.1](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v3.0.0...v3.0.1) (2022-02-16)
 
 
