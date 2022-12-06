@@ -12,5 +12,6 @@ module.exports = {
     "function-no-unknown": null,
     "selector-class-pattern": null,
     "scss/at-mixin-argumentless-call-parentheses": "always",
+    "no-descending-specificity": null,
   },
 };
