@@ -1,13 +1,10 @@
 module.exports = {
   extends: [
-    "stylelint-config-standard",
     "stylelint-config-standard-scss",
-    "stylelint-prettier/recommended",
+    "stylelint-config-sass-guidelines",
     "stylelint-config-property-sort-order-smacss",
   ],
-  plugins: ["stylelint-prettier"],
   rules: {
-    "prettier/prettier": true,
     "alpha-value-notation": "number",
     "function-no-unknown": null,
     "selector-class-pattern": null,
