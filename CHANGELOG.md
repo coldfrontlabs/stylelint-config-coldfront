@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v3.1.1...v4.0.0) (2023-09-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* **config:** removing prettier and other old standards may break custom projects
+
+### Features
+
+* **config:** upgrade to new standard and config ([2b3a8e6](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/2b3a8e62246604e6535a6e9e6a957ae07b9d69a2))
+* support both cjs and es imports ([0f97628](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/0f97628a70bd555eed95e63d592fa87757232864))
+
+
+### Bug Fixes
+
+* disable 2 rules that conflict with existing projects ([aa27d9a](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/aa27d9ae55a423ce24b2fbc869d5b14d7c4f61b2))
+
+
+### Documentation
+
+* update documentation for 4.x ([f4d3d69](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/f4d3d69d2a19a7644a2489d258ab768cf949f7e9))
+
+
+### Build System
+
+* **npm:** replace prettier plugin with prettier config ([f0666cc](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/f0666cc8ff757cd68908ed85f5190e891de36290))
+* **npm:** update all dev dependencies to latest ([c19cb59](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/c19cb59d1a9335a311c48e1504fc7fd1e07ef2fc))
+* **prettier:** update config ([a4ca0ac](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/a4ca0ac1aed0b66500b3a77669207c0312a9a8fb))
+
 ### [3.1.1](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v3.1.0...v3.1.1) (2023-09-22)
 
 
