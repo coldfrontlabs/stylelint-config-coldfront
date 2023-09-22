@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.1.0](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v4.0.0...v4.1.0) (2023-09-22)
+
+
+### Features
+
+* **config:** add latest functional prettier plugin ([6195400](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/6195400706ebba86e3f854e18751aa4ec00c8c09))
+
 ## [4.0.0](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v3.1.1...v4.0.0) (2023-09-22)
 
 
