@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.1.1](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v3.1.0...v3.1.1) (2023-09-22)
+
+
+### Build System
+
+* bump eslint from 7.32.0 to 8.36.0 ([78625d3](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/78625d32e7775b51eaa282e708e43d9d8a9291be))
+* bump eslint-config-standard from 16.0.3 to 17.0.0 ([467f6c1](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/467f6c1df9cc194d261ecf781e6594b3746731ff))
+* bump stylelint from 14.16.1 to 15.2.0 ([d82eb78](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/d82eb788fe2ca1a4ad0c2ac6feae5eab23f11fcd))
+* bump stylelint-config-standard from 29.0.0 to 31.0.0 ([ade7994](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/ade79947d201569e964ba8435faf46278314d110))
+* bump stylelint-config-standard from 31.0.0 to 33.0.0 ([e3da5a6](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/e3da5a6088c5086d424638706449acdf15379470))
+* bump stylelint-config-standard-scss from 6.1.0 to 7.0.1 ([fb34604](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/fb34604b3e118ce073ac7fc7bbacb43e76a99dc8))
+* bump stylelint-config-standard-scss from 7.0.1 to 8.0.0 ([6c35037](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/6c35037fd601d30ea088787fe93bebc4310a4a4d))
+* bump stylelint-config-standard-scss from 8.0.0 to 9.0.0 ([24a1714](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/24a1714bb21661edeabdf08b5a452c73db0922ea))
+* bump stylelint-config-standard-scss from 9.0.0 to 10.0.0 ([3627729](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/3627729d6077926c81834f07fc62b397d256e7ff))
+* bump stylelint-prettier from 2.0.0 to 3.0.0 ([e1e66f7](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/e1e66f70a65a538f95219146c99eeaf0cbfa5e13))
+* bump stylelint-prettier from 3.0.0 to 4.0.0 ([2b53233](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/2b532337552449a5874f266c8e1214503be0f3de))
+* **codeql:** adjust for new branch structure ([2d670fe](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/2d670fe7ff4033d4ac4f30ae832c2dda38a67ed4))
+
+
+### Documentation
+
+* **github:** update for new branch structure ([bb5118b](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/bb5118b487f147f6ac7514c4aa13d23504b32b82))
+
 ## [3.1.0](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v3.0.1...v3.1.0) (2022-12-06)
 
 
