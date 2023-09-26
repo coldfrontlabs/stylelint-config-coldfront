@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-coldfront",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "Custom stylelint config used for Coldfront projects.",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",

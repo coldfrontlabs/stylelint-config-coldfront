@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.1.1](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v4.1.0...v4.1.1) (2023-09-26)
+
+
+### Continuous Integration
+
+* **actions:** add tests for build and lint ([48e57de](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/48e57dedaec856e1863eb481d569d0e05fa09d99))
+* **codeql:** use latest actions to fix run ([aadbbac](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/aadbbacd04a2832a7c8311b32ed86666f5a4091a))
+
+
+### Documentation
+
+* **readme:** add tests and codeql status ([9f0306f](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/9f0306f147ed6f012e2106945017164cfb9e8cc0))
+
 ## [4.1.0](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v4.0.0...v4.1.0) (2023-09-22)
 
 
