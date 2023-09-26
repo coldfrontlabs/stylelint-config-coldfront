@@ -1,7 +1,9 @@
 # stylelint-config-coldfront
 
-[![NPM Version](https://img.shields.io/npm/v/stylelint-config-coldfront.svg?style=for-the-badge)](https://www.npmjs.org/package/stylelint-config-coldfront)
+[![Latest release](https://img.shields.io/npm/v/stylelint-config-coldfront.svg?style=for-the-badge)](https://www.npmjs.org/package/stylelint-config-coldfront)
 [![License](https://img.shields.io/github/license/coldfrontlabs/stylelint-config-coldfront.svg?style=for-the-badge)](/LICENSE)
+[![Tests](https://img.shields.io/github/actions/workflow/status/coldfrontlabs/stylelint-config-coldfront/test.yml?branch=4.x&label=Tests&style=for-the-badge)](https://github.com/coldfrontlabs/stylelint-config-coldfront/actions/workflows/test.yml)
+[![GitHub CodeQL](https://img.shields.io/github/actions/workflow/status/coldfrontlabs/stylelint-config-coldfront/codeql-analysis.yml?branch=4.x&label=CodeQL&style=for-the-badge)](https://github.com/coldfrontlabs/stylelint-config-coldfront/actions/workflows/codeql-analysis.yml)
 
 Custom stylelint config used for Coldfront projects.
 
