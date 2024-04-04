@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-module.exports = {
+var index = {
   extends: [
     "stylelint-config-standard-scss",
     "stylelint-config-sass-guidelines",
@@ -19,3 +19,5 @@ module.exports = {
     "scss/dollar-variable-colon-space-after": "always-single-line",
   },
 };
+
+module.exports = index;
