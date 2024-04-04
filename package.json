@@ -2,12 +2,13 @@
   "name": "stylelint-config-coldfront",
   "version": "4.1.1",
   "description": "Custom stylelint config used for Coldfront projects.",
-  "main": "dist/cjs/index.js",
+  "type": "module",
+  "main": "dist/cjs/index.cjs",
   "module": "dist/es/index.js",
   "exports": {
     ".": {
       "import": "./dist/es/index.js",
-      "require": "./dist/cjs/index.js"
+      "require": "./dist/cjs/index.cjs"
     }
   },
   "files": [
@@ -17,10 +18,10 @@
   "scripts": {
     "prepare": "husky install",
     "commit": "git cz",
+    "eslint": "eslint .",
+    "prettier": "prettier '**/*.{js,cjs}'",
     "lint": "npm run eslint -- --fix && npm run prettier --  --write",
-    "eslint": "eslint --ext .js,.mjs --ignore-path .gitignore .",
-    "prettier": "prettier '**/*.{js,mjs}' --ignore-path .gitignore",
-    "build": "rollup --config rollup.config.mjs",
+    "build": "rollup --config rollup.config.js",
     "release": "git add dist/. && git add index.js && standard-version -a",
     "prerelease": "npm run lint && npm run build"
   },

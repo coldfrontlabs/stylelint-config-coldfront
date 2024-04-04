@@ -4,7 +4,10 @@ export default () => {
   return {
     input: "index.js",
     output: formats.map((format) => ({
-      file: `dist/${format}/index.js`,
+      file:
+        format === "cjs"
+          ? `dist/${format}/index.cjs`
+          : `dist/${format}/index.js`,
       format,
     })),
   };
