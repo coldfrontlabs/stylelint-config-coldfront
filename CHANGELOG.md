@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0-beta.0](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v4.1.1...v5.0.0-beta.0) (2024-04-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **npm:** upgrading stylelint to v16 will cause incompatibility
+issues
+
+### Build System
+
+* bump @commitlint/cli from 17.8.1 to 19.0.3 ([e9aa283](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/e9aa283df74ae31a160fe7a66c4f5f91a127e1b8))
+* bump @commitlint/config-conventional from 17.8.1 to 19.0.3 ([06ca63f](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/06ca63f96025cd594fc5624ea2293e17daa3821f))
+* bump husky from 8.0.3 to 9.0.11 ([cbfc60d](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/cbfc60d47253201498a46c0d6562468902e6700d))
+* bump lint-staged from 14.0.1 to 15.2.0 ([6036d1a](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/6036d1a6bd526151cb6b50173f18a5f1b2bf929f))
+* bump rollup from 3.29.4 to 4.9.2 ([ca83dee](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/ca83dee54099e9486143219d403ccd6d7e3e179e))
+* bump stylelint-config-property-sort-order-smacss ([bda16f0](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/bda16f080f9048c632d71bae2cec6375905f84e8))
+* **npm:** upgrade dependencies to latest ([7fffadc](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/7fffadc542e204f7619a37e33f4609fb9b89c79f))
+* swap to module and upgrade configs to match ([d5d9842](https://github.com/coldfrontlabs/stylelint-config-coldfront/commit/d5d984261bbb0917c0266eb20e5f76924fe72f22))
+
 ### [4.1.1](https://github.com/coldfrontlabs/stylelint-config-coldfront/compare/v4.1.0...v4.1.1) (2023-09-26)
 
 
