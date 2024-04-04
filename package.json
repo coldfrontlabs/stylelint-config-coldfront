@@ -40,27 +40,29 @@
   "homepage": "https://github.com/coldfrontlabs/stylelint-config-coldfront#readme",
   "dependencies": {
     "stylelint-config-property-sort-order-smacss": "^10.0.0",
-    "stylelint-config-sass-guidelines": "^10.0.0",
-    "stylelint-config-standard-scss": "^11.0.0",
-    "stylelint-prettier": "^4.0.2"
+    "stylelint-config-sass-guidelines": "^11.1.0",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-prettier": "^5.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.0.3",
     "@commitlint/config-conventional": "^19.0.3",
+    "@eslint/js": "^8.57.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.49.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-standard": "^17.1.0",
+    "globals": "^15.0.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.0",
     "prettier": "^3.0.3",
     "rollup": "^4.9.2",
     "standard-version": "^9.5.0",
-    "stylelint": "^15.10.3"
+    "stylelint": "^16.3.1"
   },
   "peerDependencies": {
     "prettier": ">=3.0.0",
-    "stylelint": ">=15.0.0"
+    "stylelint": ">=16.0.0"
   }
 }
